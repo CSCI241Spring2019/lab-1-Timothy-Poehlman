@@ -1,0 +1,21 @@
+Script started on Thu 11 Apr 2019 12:24:25 PM PDT
+poehlmt@CF165-04:~$ git rm
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+poehlmt@CF165-04:~$ gir[Kt mv
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+poehlmt@CF165-04:~$ git blame
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+poehlmt@CF165-04:~$ git log
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+poehlmt@CF165-04:~$ git diff
+Not a git repository
+To compare two paths outside a working tree:
+usage: git diff [--no-index] <path> <path>
+poehlmt@CF165-04:~$ exit
+exit
+
+Script done on Thu 11 Apr 2019 12:24:53 PM PDT
