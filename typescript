@@ -1,21 +1,640 @@
-Script started on Thu 11 Apr 2019 12:24:25 PM PDT
-poehlmt@CF165-04:~$ git rm
-fatal: Not a git repository (or any parent up to mount point /home)
-Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
-poehlmt@CF165-04:~$ gir[Kt mv
-fatal: Not a git repository (or any parent up to mount point /home)
-Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
-poehlmt@CF165-04:~$ git blame
-fatal: Not a git repository (or any parent up to mount point /home)
-Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
-poehlmt@CF165-04:~$ git log
-fatal: Not a git repository (or any parent up to mount point /home)
-Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
-poehlmt@CF165-04:~$ git diff
-Not a git repository
-To compare two paths outside a working tree:
-usage: git diff [--no-index] <path> <path>
-poehlmt@CF165-04:~$ exit
+Script started on Thu 11 Apr 2019 12:27:32 PM PDT
+poehlmt@CF165-04:~$ git clone https://github.com/CSCI241Spring2019/;[Klab-1-Timothy -Poehlman
+Cloning into 'lab-1-Timothy-Poehlman'...
+remote: Enumerating objects: 33, done.[K
+remote: Counting objects:   3% (1/33)   [Kremote: Counting objects:   6% (2/33)   [Kremote: Counting objects:   9% (3/33)   [Kremote: Counting objects:  12% (4/33)   [Kremote: Counting objects:  15% (5/33)   [Kremote: Counting objects:  18% (6/33)   [Kremote: Counting objects:  21% (7/33)   [Kremote: Counting objects:  24% (8/33)   [Kremote: Counting objects:  27% (9/33)   [Kremote: Counting objects:  30% (10/33)   [Kremote: Counting objects:  33% (11/33)   [Kremote: Counting objects:  36% (12/33)   [Kremote: Counting objects:  39% (13/33)   [Kremote: Counting objects:  42% (14/33)   [Kremote: Counting objects:  45% (15/33)   [Kremote: Counting objects:  48% (16/33)   [Kremote: Counting objects:  51% (17/33)   [Kremote: Counting objects:  54% (18/33)   [Kremote: Counting objects:  57% (19/33)   [Kremote: Counting objects:  60% (20/33)   [Kremote: Counting objects:  63% (21/33)   [Kremote: Counting objects:  66% (22/33)   [Kremote: Counting objects:  69% (23/33)   [Kremote: Counting objects:  72% (24/33)   [Kremote: Counting objects:  75% (25/33)   [Kremote: Counting objects:  78% (26/33)   [Kremote: Counting objects:  81% (27/33)   [Kremote: Counting objects:  84% (28/33)   [Kremote: Counting objects:  87% (29/33)   [Kremote: Counting objects:  90% (30/33)   [Kremote: Counting objects:  93% (31/33)   [Kremote: Counting objects:  96% (32/33)   [Kremote: Counting objects: 100% (33/33)   [Kremote: Counting objects: 100% (33/33), done.[K
+remote: Compressing objects:   5% (1/17)   [Kremote: Compressing objects:  11% (2/17)   [Kremote: Compressing objects:  17% (3/17)   [Kremote: Compressing objects:  23% (4/17)   [Kremote: Compressing objects:  29% (5/17)   [Kremote: Compressing objects:  35% (6/17)   [Kremote: Compressing objects:  41% (7/17)   [Kremote: Compressing objects:  47% (8/17)   [Kremote: Compressing objects:  52% (9/17)   [Kremote: Compressing objects:  58% (10/17)   [Kremote: Compressing objects:  64% (11/17)   [Kremote: Compressing objects:  70% (12/17)   [Kremote: Compressing objects:  76% (13/17)   [Kremote: Compressing objects:  82% (14/17)   [Kremote: Compressing objects:  88% (15/17)   [Kremote: Compressing objects:  94% (16/17)   [Kremote: Compressing objects: 100% (17/17)   [Kremote: Compressing objects: 100% (17/17), done.[K
+remote: Total 33 (delta 7), reused 27 (delta 4), pack-reused 0[K
+Unpacking objects:   3% (1/33)   Unpacking objects:   6% (2/33)   Unpacking objects:   9% (3/33)   Unpacking objects:  12% (4/33)   Unpacking objects:  15% (5/33)   Unpacking objects:  18% (6/33)   Unpacking objects:  21% (7/33)   Unpacking objects:  24% (8/33)   Unpacking objects:  27% (9/33)   Unpacking objects:  30% (10/33)   Unpacking objects:  33% (11/33)   Unpacking objects:  36% (12/33)   Unpacking objects:  39% (13/33)   Unpacking objects:  42% (14/33)   Unpacking objects:  45% (15/33)   Unpacking objects:  48% (16/33)   Unpacking objects:  51% (17/33)   Unpacking objects:  54% (18/33)   Unpacking objects:  57% (19/33)   Unpacking objects:  60% (20/33)   Unpacking objects:  63% (21/33)   Unpacking objects:  66% (22/33)   Unpacking objects:  69% (23/33)   Unpacking objects:  72% (24/33)   Unpacking objects:  75% (25/33)   Unpacking objects:  78% (26/33)   Unpacking objects:  81% (27/33)   Unpacking objects:  84% (28/33)   Unpacking objects:  87% (29/33)   Unpacking objects:  90% (30/33)   Unpacking objects:  93% (31/33)   Unpacking objects:  96% (32/33)   Unpacking objects: 100% (33/33)   Unpacking objects: 100% (33/33), done.
+Checking connectivity... done.
+poehlmt@CF165-04:~$ ls
+CSCI141  Desktop    lab-1-Timothy-Poehlman  Public	Videos
+CSCI145  Documents  Music		    Templates
+CSCI241  Downloads  Pictures		    typescript
+poehlmt@CF165-04:~$ cd lab-1-Timothy-Poehlman/
+poehlmt@CF165-04:~/lab-1-Timothy-Poehlman$ ls
+build.gradle  src  typescript  username.txt  writeup.txt
+poehlmt@CF165-04:~/lab-1-Timothy-Poehlman$ git config -- [Kglibal[K[K[K[Kobal user.name "Timoth y-Poehlman"
+poehlmt@CF165-04:~/lab-1-Timothy-Poehlman$ git config --global user.email userna me@wwu.edu
+poehlmt@CF165-04:~/lab-1-Timothy-Poehlman$ touch writeup.txt
+poehlmt@CF165-04:~/lab-1-Timothy-Poehlman$ git add writeup.txt
+poehlmt@CF165-04:~/lab-1-Timothy-Poehlman$ git commit -m"a[KAdded empty writeup
+> git push(I DID NOT PUSH DUE TO THIS [K[K[K[K[KTHE PREVIOUS T[KTEXTFIE[K[K[K[K[K[KT[KRANSCTI[K[KRIPT BEING DELTED)
+> ^C
+poehlmt@CF165-04:~/lab-1-Timothy-Poehlman$ git checkout
+Your branch is up-to-date with 'origin/master'.
+poehlmt@CF165-04:~/lab-1-Timothy-Poehlman$ git reset
+poehlmt@CF165-04:~/lab-1-Timothy-Poehlman$ git rm
+usage: git rm [<options>] [--] <file>...
+
+    -n, --dry-run         dry run
+    -q, --quiet           do not list removed files
+    --cached              only remove from the index
+    -f, --force           override the up-to-date check
+    -r                    allow recursive removal
+    --ignore-unmatch      exit with a zero status even if nothing matched
+
+poehlmt@CF165-04:~/lab-1-Timothy-Poehlman$ git mv
+usage: git mv [<options>] <source>... <destination>
+
+    -v, --verbose         be verbose
+    -n, --dry-run         dry run
+    -f, --force           force move/rename even if target exists
+    -k                    skip move/rename errors
+
+poehlmt@CF165-04:~/lab-1-Timothy-Poehlman$ git blame
+usage: git blame [<options>] [<rev-opts>] [<rev>] [--] <file>
+
+    <rev-opts> are documented in git-rev-list(1)
+
+    --incremental         Show blame entries as we find them, incrementally
+    -b                    Show blank SHA-1 for boundary commits (Default: off)
+    --root                Do not treat root commits as boundaries (Default: off)
+    --show-stats          Show work cost statistics
+    --score-debug         Show output score for blame entries
+    -f, --show-name       Show original filename (Default: auto)
+    -n, --show-number     Show original linenumber (Default: off)
+    -p, --porcelain       Show in a format designed for machine consumption
+    --line-porcelain      Show porcelain format with per-line commit information
+    -c                    Use the same output mode as git-annotate (Default: off)
+    -t                    Show raw timestamp (Default: off)
+    -l                    Show long commit SHA1 (Default: off)
+    -s                    Suppress author name and timestamp (Default: off)
+    -e, --show-email      Show author email instead of name (Default: off)
+    -w                    Ignore whitespace differences
+    --minimal             Spend extra cycles to find better match
+    -S <file>             Use revisions from <file> instead of calling git-rev-list
+    --contents <file>     Use <file>'s contents as the final image
+    -C[<score>]           Find line copies within and across files
+    -M[<score>]           Find line movements within and across files
+    -L <n,m>              Process only line range n,m, counting from 1
+    --abbrev[=<n>]        use <n> digits to display SHA-1s
+
+poehlmt@CF165-04:~/lab-1-Timothy-Poehlman$ git log
+[?1h=[33mcommit 7db97421422ee4ea1353a5577ba8d68ea92ee7a0[m[m
+Author: Timothy-Poehlman <46605302+Timothy-Poehlman@users.noreply.github.com>[m
+Date:   Thu Apr 11 12:26:03 2019 -0700[m
+[m
+    added typescript transcript[m
+[m
+[33mcommit 9228a99e9029b4309b9cb0208662a03c6650d22c[m[m
+Author: Timothy-Poehlman <poehlmt@wwu.edu>[m
+Date:   Thu Apr 11 12:23:22 2019 -0700[m
+[m
+    Hello now prints command line arg[m
+[m
+[33mcommit 3e8c43c2f0980a33b3bdb85069d67d56d36e647b[m[m
+Author: Timothy-Poehlman <poehlmt@wwu.edu>[m
+Date:   Thu Apr 11 12:11:30 2019 -0700[m
+[m
+    modified writeup.txt for the question 3 branch[m
+[m
+[33mcommit 2b81f6f83b78dd989a3bb4c02640f943cc427b5d[m[m
+Author: Timothy-Poehlman <poehlmt@wwu.edu>[m
+Date:   Thu Apr 11 12:08:25 2019 -0700[m
+[m
+    added username.txt with edits[m
+:[K[K[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[24;1H[K[K:[K[K[m
+[33mcommit 3634c960f2fd60099aecb840a95026e341421a65[m[m
+Author: Timothy-Poehlman <poehlmt@wwu.edu>[m
+Date:   Thu Apr 11 12:06:25 2019 -0700[m
+[m
+    added an extra line for step 2 to writeup.txt[m
+[m
+[33mcommit 052a6ba261b2beb5c5b17f5181e6265fe4ae942f[m[m
+Author: Timothy-Poehlman <poehlmt@wwu.edu>[m
+Date:   Thu Apr 11 12:04:51 2019 -0700[m
+[m
+    Added part 1 (names) to writeup.txt[m
+:[K[K:[K[K[m
+[33mcommit cd84f976e386bef88021f3c0d37c6bc4f5b367d8[m[m
+Author: Timothy-Poehlman <poehlmt@wwu.edu>[m
+Date:   Thu Apr 11 12:02:27 2019 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 1523c09e41bb264a6f420fcd78d1a7d6e44a5340[m[m
+Author: majeskn <majeskn@wwu.edu>[m
+Date:   Mon Jan 7 20:49:19 2019 -0800[m
+[m
+    Adding setup for gradle[m
+[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[H[2J[HM    added username.txt with edits[m
+[HM[m
+[HMDate:   Thu Apr 11 12:08:25 2019 -0700[m
+[HMAuthor: Timothy-Poehlman <poehlmt@wwu.edu>[m
+[HM[33mcommit 2b81f6f83b78dd989a3bb4c02640f943cc427b5d[m[m
+[HM[m
+[HM    modified writeup.txt for the question 3 branch[m
+[HM[m
+[HMDate:   Thu Apr 11 12:11:30 2019 -0700[m
+[HMAuthor: Timothy-Poehlman <poehlmt@wwu.edu>[m
+[HM[33mcommit 3e8c43c2f0980a33b3bdb85069d67d56d36e647b[m[m
+[HM[m
+[HM    Hello now prints command line arg[m
+[HM[m
+[HMDate:   Thu Apr 11 12:23:22 2019 -0700[m
+[HMAuthor: Timothy-Poehlman <poehlmt@wwu.edu>[m
+[HM[33mcommit 9228a99e9029b4309b9cb0208662a03c6650d22c[m[m
+[HM[m
+[HM    added typescript transcript[m
+[HM[m
+[HMDate:   Thu Apr 11 12:26:03 2019 -0700[m
+[HMAuthor: Timothy-Poehlman <46605302+Timothy-Poehlman@users.noreply.github.com>[m
+[HM[33mcommit 7db97421422ee4ea1353a5577ba8d68ea92ee7a0[m[m
+[24;1H[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[24;1H[K[K:[K[K[m
+[33mcommit 3634c960f2fd60099aecb840a95026e341421a65[m[m
+Author: Timothy-Poehlman <poehlmt@wwu.edu>[m
+Date:   Thu Apr 11 12:06:25 2019 -0700[m
+[m
+    added an extra line for step 2 to writeup.txt[m
+[m
+[33mcommit 052a6ba261b2beb5c5b17f5181e6265fe4ae942f[m[m
+Author: Timothy-Poehlman <poehlmt@wwu.edu>[m
+Date:   Thu Apr 11 12:04:51 2019 -0700[m
+[m
+    Added part 1 (names) to writeup.txt[m
+:[K[K:[K[K[m
+[33mcommit cd84f976e386bef88021f3c0d37c6bc4f5b367d8[m[m
+Author: Timothy-Poehlman <poehlmt@wwu.edu>[m
+Date:   Thu Apr 11 12:02:27 2019 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 1523c09e41bb264a6f420fcd78d1a7d6e44a5340[m[m
+Author: majeskn <majeskn@wwu.edu>[m
+Date:   Mon Jan 7 20:49:19 2019 -0800[m
+[m
+    Adding setup for gradle[m
+[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[H[2J[HM    added username.txt with edits[m
+[HM[m
+[HMDate:   Thu Apr 11 12:08:25 2019 -0700[m
+[HMAuthor: Timothy-Poehlman <poehlmt@wwu.edu>[m
+[HM[33mcommit 2b81f6f83b78dd989a3bb4c02640f943cc427b5d[m[m
+[HM[m
+[HM    modified writeup.txt for the question 3 branch[m
+[HM[m
+[HMDate:   Thu Apr 11 12:11:30 2019 -0700[m
+[HMAuthor: Timothy-Poehlman <poehlmt@wwu.edu>[m
+[HM[33mcommit 3e8c43c2f0980a33b3bdb85069d67d56d36e647b[m[m
+[HM[m
+[HM    Hello now prints command line arg[m
+[HM[m
+[HMDate:   Thu Apr 11 12:23:22 2019 -0700[m
+[HMAuthor: Timothy-Poehlman <poehlmt@wwu.edu>[m
+[HM[33mcommit 9228a99e9029b4309b9cb0208662a03c6650d22c[m[m
+[HM[m
+[HM    added typescript transcript[m
+[HM[m
+[HMDate:   Thu Apr 11 12:26:03 2019 -0700[m
+[HMAuthor: Timothy-Poehlman <46605302+Timothy-Poehlman@users.noreply.github.com>[m
+[HM[33mcommit 7db97421422ee4ea1353a5577ba8d68ea92ee7a0[m[m
+[24;1H[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[24;1H[K[K:[K[K:[K[K:[K[K[m
+:[K[K:[K[K[33mcommit 3634c960f2fd60099aecb840a95026e341421a65[m[m
+:[K[KAuthor: Timothy-Poehlman <poehlmt@wwu.edu>[m
+:[K[KDate:   Thu Apr 11 12:06:25 2019 -0700[m
+:[K[K[HM[m
+[HMDate:   Thu Apr 11 12:26:03 2019 -0700[m
+[HMAuthor: Timothy-Poehlman <46605302+Timothy-Poehlman@users.noreply.github.com>[m
+[HM[33mcommit 7db97421422ee4ea1353a5577ba8d68ea92ee7a0[m[m
+[24;1H[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[24;1H[K[K:[K[K[m
+[33mcommit 3634c960f2fd60099aecb840a95026e341421a65[m[m
+Author: Timothy-Poehlman <poehlmt@wwu.edu>[m
+Date:   Thu Apr 11 12:06:25 2019 -0700[m
+[m
+    added an extra line for step 2 to writeup.txt[m
+[m
+[33mcommit 052a6ba261b2beb5c5b17f5181e6265fe4ae942f[m[m
+Author: Timothy-Poehlman <poehlmt@wwu.edu>[m
+Date:   Thu Apr 11 12:04:51 2019 -0700[m
+[m
+    Added part 1 (names) to writeup.txt[m
+:[K[K:[K[K[m
+[33mcommit cd84f976e386bef88021f3c0d37c6bc4f5b367d8[m[m
+Author: Timothy-Poehlman <poehlmt@wwu.edu>[m
+Date:   Thu Apr 11 12:02:27 2019 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 1523c09e41bb264a6f420fcd78d1a7d6e44a5340[m[m
+Author: majeskn <majeskn@wwu.edu>[m
+Date:   Mon Jan 7 20:49:19 2019 -0800[m
+[m
+    Adding setup for gradle[m
+[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[KExamine: [Knn[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[KExamine: [Kee[K[K[7me: No such file or directory  (press RETURN)[27m[24;1H[K...skipping...
+[33mcommit 3634c960f2fd60099aecb840a95026e341421a65[m[m
+Author: Timothy-Poehlman <poehlmt@wwu.edu>[m
+Date:   Thu Apr 11 12:06:25 2019 -0700[m
+[m
+    added an extra line for step 2 to writeup.txt[m
+[m
+[33mcommit 052a6ba261b2beb5c5b17f5181e6265fe4ae942f[m[m
+Author: Timothy-Poehlman <poehlmt@wwu.edu>[m
+Date:   Thu Apr 11 12:04:51 2019 -0700[m
+[m
+    Added part 1 (names) to writeup.txt[m
+[m
+[33mcommit cd84f976e386bef88021f3c0d37c6bc4f5b367d8[m[m
+Author: Timothy-Poehlman <poehlmt@wwu.edu>[m
+Date:   Thu Apr 11 12:02:27 2019 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 1523c09e41bb264a6f420fcd78d1a7d6e44a5340[m[m
+Author: majeskn <majeskn@wwu.edu>[m
+Date:   Mon Jan 7 20:49:19 2019 -0800[m
+[m
+    Adding setup for gradle[m
+:[K[K:[K[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[33m1421a65[m[m
+u>[m
+[m
+[m
+iteup.txt[m
+[m
+[33m4ae942f[m[m
+u>[m
+[m
+[m
+[m
+[m
+[33m5b367d8[m[m
+u>[m
+[m
+[m
+[m
+[m
+[33m44a5340[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[33m1421a65[m[m
+u>[m
+[m
+[m
+iteup.txt[m
+[m
+[33m4ae942f[m[m
+u>[m
+[m
+[m
+[m
+[m
+[33m5b367d8[m[m
+u>[m
+[m
+[m
+[m
+[m
+[33m44a5340[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[33mcommit 3634c960f2fd60099aecb840a95026e341421a65[m[m
+Author: Timothy-Poehlman <poehlmt@wwu.edu>[m
+Date:   Thu Apr 11 12:06:25 2019 -0700[m
+[m
+    added an extra line for step 2 to writeup.txt[m
+[m
+[33mcommit 052a6ba261b2beb5c5b17f5181e6265fe4ae942f[m[m
+Author: Timothy-Poehlman <poehlmt@wwu.edu>[m
+Date:   Thu Apr 11 12:04:51 2019 -0700[m
+[m
+    Added part 1 (names) to writeup.txt[m
+[m
+[33mcommit cd84f976e386bef88021f3c0d37c6bc4f5b367d8[m[m
+Author: Timothy-Poehlman <poehlmt@wwu.edu>[m
+Date:   Thu Apr 11 12:02:27 2019 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 1523c09e41bb264a6f420fcd78d1a7d6e44a5340[m[m
+Author: majeskn <majeskn@wwu.edu>[m
+Date:   Mon Jan 7 20:49:19 2019 -0800[m
+[m
+    Adding setup for gradle[m
+[7m(END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[33mcommit 3634c960f2fd60099aecb840a95026e341421a65[m[m
+Author: Timothy-Poehlman <poehlmt@wwu.edu>[m
+Date:   Thu Apr 11 12:06:25 2019 -0700[m
+[m
+    added an extra line for step 2 to writeup.txt[m
+[m
+[33mcommit 052a6ba261b2beb5c5b17f5181e6265fe4ae942f[m[m
+Author: Timothy-Poehlman <poehlmt@wwu.edu>[m
+Date:   Thu Apr 11 12:04:51 2019 -0700[m
+[m
+    Added part 1 (names) to writeup.txt[m
+[m
+[33mcommit cd84f976e386bef88021f3c0d37c6bc4f5b367d8[m[m
+Author: Timothy-Poehlman <poehlmt@wwu.edu>[m
+Date:   Thu Apr 11 12:02:27 2019 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 1523c09e41bb264a6f420fcd78d1a7d6e44a5340[m[m
+Author: majeskn <majeskn@wwu.edu>[m
+Date:   Mon Jan 7 20:49:19 2019 -0800[m
+[m
+    Adding setup for gradle[m
+[7m(END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[33mcommit 3634c960f2fd60099aecb840a95026e341421a65[m[m
+Author: Timothy-Poehlman <poehlmt@wwu.edu>[m
+Date:   Thu Apr 11 12:06:25 2019 -0700[m
+[m
+    added an extra line for step 2 to writeup.txt[m
+[m
+[33mcommit 052a6ba261b2beb5c5b17f5181e6265fe4ae942f[m[m
+Author: Timothy-Poehlman <poehlmt@wwu.edu>[m
+Date:   Thu Apr 11 12:04:51 2019 -0700[m
+[m
+    Added part 1 (names) to writeup.txt[m
+[m
+[33mcommit cd84f976e386bef88021f3c0d37c6bc4f5b367d8[m[m
+Author: Timothy-Poehlman <poehlmt@wwu.edu>[m
+Date:   Thu Apr 11 12:02:27 2019 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 1523c09e41bb264a6f420fcd78d1a7d6e44a5340[m[m
+Author: majeskn <majeskn@wwu.edu>[m
+Date:   Mon Jan 7 20:49:19 2019 -0800[m
+[m
+    Adding setup for gradle[m
+[7m(END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[33mcommit 3634c960f2fd60099aecb840a95026e341421a65[m[m
+Author: Timothy-Poehlman <poehlmt@wwu.edu>[m
+Date:   Thu Apr 11 12:06:25 2019 -0700[m
+[m
+    added an extra line for step 2 to writeup.txt[m
+[m
+[33mcommit 052a6ba261b2beb5c5b17f5181e6265fe4ae942f[m[m
+Author: Timothy-Poehlman <poehlmt@wwu.edu>[m
+Date:   Thu Apr 11 12:04:51 2019 -0700[m
+[m
+    Added part 1 (names) to writeup.txt[m
+[m
+[33mcommit cd84f976e386bef88021f3c0d37c6bc4f5b367d8[m[m
+Author: Timothy-Poehlman <poehlmt@wwu.edu>[m
+Date:   Thu Apr 11 12:02:27 2019 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 1523c09e41bb264a6f420fcd78d1a7d6e44a5340[m[m
+Author: majeskn <majeskn@wwu.edu>[m
+Date:   Mon Jan 7 20:49:19 2019 -0800[m
+[m
+    Adding setup for gradle[m
+[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K-[Klog file: [Kss[K[Kee[Kxx[Kii[Ktt[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K/[K[K[7mNo previous regular expression  (press RETURN)[27m[24;1H[K[K[K[7m(END)[27m[K[K/[K[K[7mNo previous regular expression  (press RETURN)[27m[24;1H[K[K [KESCESC[KOO[KFF[K...skipping...
+[33mcommit 3634c960f2fd60099aecb840a95026e341421a65[m[m
+Author: Timothy-Poehlman <poehlmt@wwu.edu>[m
+Date:   Thu Apr 11 12:06:25 2019 -0700[m
+[m
+    added an extra line for step 2 to writeup.txt[m
+[m
+[33mcommit 052a6ba261b2beb5c5b17f5181e6265fe4ae942f[m[m
+Author: Timothy-Poehlman <poehlmt@wwu.edu>[m
+Date:   Thu Apr 11 12:04:51 2019 -0700[m
+[m
+    Added part 1 (names) to writeup.txt[m
+[m
+[33mcommit cd84f976e386bef88021f3c0d37c6bc4f5b367d8[m[m
+Author: Timothy-Poehlman <poehlmt@wwu.edu>[m
+Date:   Thu Apr 11 12:02:27 2019 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 1523c09e41bb264a6f420fcd78d1a7d6e44a5340[m[m
+Author: majeskn <majeskn@wwu.edu>[m
+Date:   Mon Jan 7 20:49:19 2019 -0800[m
+[m
+    Adding setup for gradle[m
+[7m(END)[27m[K[K [KESCESC[KOO[KFF[K...skipping...
+[33mcommit 3634c960f2fd60099aecb840a95026e341421a65[m[m
+Author: Timothy-Poehlman <poehlmt@wwu.edu>[m
+Date:   Thu Apr 11 12:06:25 2019 -0700[m
+[m
+    added an extra line for step 2 to writeup.txt[m
+[m
+[33mcommit 052a6ba261b2beb5c5b17f5181e6265fe4ae942f[m[m
+Author: Timothy-Poehlman <poehlmt@wwu.edu>[m
+Date:   Thu Apr 11 12:04:51 2019 -0700[m
+[m
+    Added part 1 (names) to writeup.txt[m
+[m
+[33mcommit cd84f976e386bef88021f3c0d37c6bc4f5b367d8[m[m
+Author: Timothy-Poehlman <poehlmt@wwu.edu>[m
+Date:   Thu Apr 11 12:02:27 2019 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 1523c09e41bb264a6f420fcd78d1a7d6e44a5340[m[m
+Author: majeskn <majeskn@wwu.edu>[m
+Date:   Mon Jan 7 20:49:19 2019 -0800[m
+[m
+    Adding setup for gradle[m
+[7m(END)[27m[K[K [KESCESC[KOO[KFF[K...skipping...
+[33mcommit 3634c960f2fd60099aecb840a95026e341421a65[m[m
+Author: Timothy-Poehlman <poehlmt@wwu.edu>[m
+Date:   Thu Apr 11 12:06:25 2019 -0700[m
+[m
+    added an extra line for step 2 to writeup.txt[m
+[m
+[33mcommit 052a6ba261b2beb5c5b17f5181e6265fe4ae942f[m[m
+Author: Timothy-Poehlman <poehlmt@wwu.edu>[m
+Date:   Thu Apr 11 12:04:51 2019 -0700[m
+[m
+    Added part 1 (names) to writeup.txt[m
+[m
+[33mcommit cd84f976e386bef88021f3c0d37c6bc4f5b367d8[m[m
+Author: Timothy-Poehlman <poehlmt@wwu.edu>[m
+Date:   Thu Apr 11 12:02:27 2019 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 1523c09e41bb264a6f420fcd78d1a7d6e44a5340[m[m
+Author: majeskn <majeskn@wwu.edu>[m
+Date:   Mon Jan 7 20:49:19 2019 -0800[m
+[m
+    Adding setup for gradle[m
+[7m(END)[27m[K[K [KESCESC[KOO[KFF[K...skipping...
+[33mcommit 3634c960f2fd60099aecb840a95026e341421a65[m[m
+Author: Timothy-Poehlman <poehlmt@wwu.edu>[m
+Date:   Thu Apr 11 12:06:25 2019 -0700[m
+[m
+    added an extra line for step 2 to writeup.txt[m
+[m
+[33mcommit 052a6ba261b2beb5c5b17f5181e6265fe4ae942f[m[m
+Author: Timothy-Poehlman <poehlmt@wwu.edu>[m
+Date:   Thu Apr 11 12:04:51 2019 -0700[m
+[m
+    Added part 1 (names) to writeup.txt[m
+[m
+[33mcommit cd84f976e386bef88021f3c0d37c6bc4f5b367d8[m[m
+Author: Timothy-Poehlman <poehlmt@wwu.edu>[m
+Date:   Thu Apr 11 12:02:27 2019 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 1523c09e41bb264a6f420fcd78d1a7d6e44a5340[m[m
+Author: majeskn <majeskn@wwu.edu>[m
+Date:   Mon Jan 7 20:49:19 2019 -0800[m
+[m
+    Adding setup for gradle[m
+[7m(END)[27m[K[K [KESCESC[KOO[KFF[K...skipping...
+[33mcommit 3634c960f2fd60099aecb840a95026e341421a65[m[m
+Author: Timothy-Poehlman <poehlmt@wwu.edu>[m
+Date:   Thu Apr 11 12:06:25 2019 -0700[m
+[m
+    added an extra line for step 2 to writeup.txt[m
+[m
+[33mcommit 052a6ba261b2beb5c5b17f5181e6265fe4ae942f[m[m
+Author: Timothy-Poehlman <poehlmt@wwu.edu>[m
+Date:   Thu Apr 11 12:04:51 2019 -0700[m
+[m
+    Added part 1 (names) to writeup.txt[m
+[m
+[33mcommit cd84f976e386bef88021f3c0d37c6bc4f5b367d8[m[m
+Author: Timothy-Poehlman <poehlmt@wwu.edu>[m
+Date:   Thu Apr 11 12:02:27 2019 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 1523c09e41bb264a6f420fcd78d1a7d6e44a5340[m[m
+Author: majeskn <majeskn@wwu.edu>[m
+Date:   Mon Jan 7 20:49:19 2019 -0800[m
+[m
+    Adding setup for gradle[m
+[7m(END)[27m[K[K [KESCESC[KESCESC[K[7m(END)[27m[K[K [KESCESC[K^J^J[K[7m(END)[27m[K[K [KESCESC[K^J^J[K[7m(END)[27m[K[K [KESCESC[K^J^J[K[7m(END)[27m[K[K[7m(END)[27m[K[K [K^X^X[K[7m(END)[27m[K[K [K^X^X[K^J^J[K[7m(END)[27m[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[H[2J[HM    added username.txt with edits[m
+[HM[m
+[HMDate:   Thu Apr 11 12:08:25 2019 -0700[m
+[HMAuthor: Timothy-Poehlman <poehlmt@wwu.edu>[m
+[HM[33mcommit 2b81f6f83b78dd989a3bb4c02640f943cc427b5d[m[m
+[HM[m
+[HM    modified writeup.txt for the question 3 branch[m
+[HM[m
+[HMDate:   Thu Apr 11 12:11:30 2019 -0700[m
+[HMAuthor: Timothy-Poehlman <poehlmt@wwu.edu>[m
+[HM[33mcommit 3e8c43c2f0980a33b3bdb85069d67d56d36e647b[m[m
+[HM[m
+[HM    Hello now prints command line arg[m
+[HM[m
+[HMDate:   Thu Apr 11 12:23:22 2019 -0700[m
+[HMAuthor: Timothy-Poehlman <poehlmt@wwu.edu>[m
+[HM[33mcommit 9228a99e9029b4309b9cb0208662a03c6650d22c[m[m
+[HM[m
+[HM    added typescript transcript[m
+[HM[m
+[HMDate:   Thu Apr 11 12:26:03 2019 -0700[m
+[HMAuthor: Timothy-Poehlman <46605302+Timothy-Poehlman@users.noreply.github.com>[m
+[HM[33mcommit 7db97421422ee4ea1353a5577ba8d68ea92ee7a0[m[m
+[24;1H[K:[K[K[K:[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K[33mcommit 3634c960f2fd60099aecb840a95026e341421a65[m[m
+:[K[K [KESCESC[KOO[KBB[KAuthor: Timothy-Poehlman <poehlmt@wwu.edu>[m
+:[K[K [KESCESC[KOO[KBB[KDate:   Thu Apr 11 12:06:25 2019 -0700[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K    added an extra line for step 2 to writeup.txt[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K[33mcommit 052a6ba261b2beb5c5b17f5181e6265fe4ae942f[m[m
+:[K[K [KESCESC[KOO[KBB[KAuthor: Timothy-Poehlman <poehlmt@wwu.edu>[m
+:[K[K [KESCESC[KOO[KBB[KDate:   Thu Apr 11 12:04:51 2019 -0700[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K    Added part 1 (names) to writeup.txt[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K[33mcommit cd84f976e386bef88021f3c0d37c6bc4f5b367d8[m[m
+:[K[K [KESCESC[KOO[KBB[KAuthor: Timothy-Poehlman <poehlmt@wwu.edu>[m
+:[K[K [KESCESC[KOO[KBB[KDate:   Thu Apr 11 12:02:27 2019 -0700[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K    Added empty writeup[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K[33mcommit 1523c09e41bb264a6f420fcd78d1a7d6e44a5340[m[m
+:[K[K [KESCESC[KOO[KBB[KAuthor: majeskn <majeskn@wwu.edu>[m
+:[K[K [KESCESC[KOO[KBB[KDate:   Mon Jan 7 20:49:19 2019 -0800[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K    Adding setup for gradle[m
+[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K:[K[K [KESCESC[KOO[KBB[K    Adding setup for gradle[m
+[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K[?1l>
+poehlmt@CF165-04:~/lab-1-Timothy-Poehlman$ git chec[K[K[K[Kcheckout master
+Already on 'master'
+Your branch is up-to-date with 'origin/master'.
+poehlmt@CF165-04:~/lab-1-Timothy-Poehlman$ git checkout -n[Kb h[Kquestion3
+Switched to a new branch 'question3'
+poehlmt@CF165-04:~/lab-1-Timothy-Poehlman$ git checkout master
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+poehlmt@CF165-04:~/lab-1-Timothy-Poehlman$ git merge question3
+Already up-to-date.
+poehlmt@CF165-04:~/lab-1-Timothy-Poehlman$ git d[Kbranch -d question3
+Deleted branch question3 (was 7db9742).
+poehlmt@CF165-04:~/lab-1-Timothy-Poehlman$ gradke bu[K[K[K[K[K[Kdle build
+[0m
+
+[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+5 actionable tasks: 5 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[2B[2A[2K[1B[2K[1A[0mpoehlmt@CF165-04:~/lab-1-Timothy-Poehlman$ gradle run
+[0m
+[1A
+[1m> Task :run[m
+Hello !
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+
+[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0mpoehlmt@CF165-04:~/lab-1-Timothy-Poehlman$ gradle run --args="241")[K
+[0m
+[1A
+[1m> Task :run[m
+Hello 241!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+
+[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0mpoehlmt@CF165-04:~/lab-1-Timothy-Poehlman$ git commit -m "DID THIS"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	[31m.gradle/[m
+	[31mbuild/[m
+	[31mexit[m
+
+nothing added to commit but untracked files present
+poehlmt@CF165-04:~/lab-1-Timothy-Poehlman$ git add src/main/java/lab1/Hello.java  
+poehlmt@CF165-04:~/lab-1-Timothy-Poehlman$ git o[Kcommit -m "AF"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	[31m.gradle/[m
+	[31mbuild/[m
+	[31mexit[m
+
+nothing added to commit but untracked files present
+poehlmt@CF165-04:~/lab-1-Timothy-Poehlman$ git push(DID THIS)
+bash: syntax error near unexpected token `('
+poehlmt@CF165-04:~/lab-1-Timothy-Poehlman$ exit
 exit
 
-Script done on Thu 11 Apr 2019 12:24:53 PM PDT
+Script done on Thu 11 Apr 2019 12:34:10 PM PDT
